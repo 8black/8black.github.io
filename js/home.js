@@ -16,3 +16,8 @@ window.addEventListener('scroll',winScroll);
 
 let homelist = document.getElementById("homelist")
 renderList(homelist,SETTING.homelist)
+
+setTimeout(() => {
+    let start = document.getElementById("start")
+    start.style.display="none"
+}, 2000);

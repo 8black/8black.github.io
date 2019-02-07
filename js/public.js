@@ -51,8 +51,14 @@ function loadDetail(i){
     wrap.appendChild(image)
 
     detail.style.display="block"
-    detailC.style.height = document.body.offsetHeight+30
-    detail.style.top=document.body.scrollTop
+    if(detailC.offsetHeight<document.body.offsetHeight){
+        console.log(detailC.offsetHeight,document.body.offsetHeight)
+        detailC.style.height = document.body.offsetHeight-200
+    }else{
+        console.log(detailC.offsetHeight,document.body.offsetHeight)
+        detailC.style.height=detailC.offsetHeight-300
+    }
+
     detail.scroll(function(event){
         event.stopPropagation();
     })
@@ -82,6 +88,12 @@ function renderList(list, arr){
 
         list.appendChild(ele);
     }
+
+    //Shhh... trying to design more here
+    let ele = document.createElement("div");
+    ele.className+=" "+"shhmore"
+    ele.innerHTML="Shhh... trying to design more here"
+    list.appendChild(ele);
 }
 
 

@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="css/about.css">
     <script  type="text/javascript" src = "js/public.js"></script>
     <script type="text/javascript" src = "js/conf.js"></script>
+    <script type="text/javascript" src = "js/about.js"></script>
 </head>
-<body class="">
+<body class="" onmousemove="mouseMove(event)">
     <div class="sub-page-title">
         <h1>LOVE TODAY, 511</h1>
     </div>
     <section>
         <div class="about-wrap">
             <div class="left">
-                <div class="backimg"></div>
-                <div class="backrect"></div>        
+                <div class="backimg" id="animBack" style="transform:skewY(-10deg) rotateY(5deg);"></div>
+                <div class="backrect" id="animFront" style="transform:skewY(15deg) rotateY(-5deg);"></div>        
             </div>
             <div class="right">
                 <p>"Hello! My name is Iain 511.</p>
@@ -26,22 +27,24 @@
                 <p>If you come up with some suggestions with my work, or feel inspiring, please comment in any kind of ways. I appreciate every single piece of feedback from you.</p>
                 <p>And yeah, nice to meet you, too."</p>
                 <div class="link">
-                    <div class="zcool"> <a ></a></div>
-                    <div class="weibo"><a ></a></div>
-                    <div class="wechat"><a ></a></div>
+                    <div class="zcool" > <a target="_blank" onmouseover="showTitle(this,'Follow me on Zcool')" onmouseout="hideTitle()"></a></div>
+                    <div class="weibo" ><a target="_blank" href="https://weibo.com/207078129?is_all=1&stat_date=201808&pids=Pl_Official_MyProfileFeed__20#feedtop" onmouseover="showTitle(this,'Follow me on Weibo')" onmouseout="hideTitle()"></a></div>
+                    <div class="wechat" ><a onclick="showCode()" onmouseover="showTitle(this,'Contact me by Wechat')" onmouseout="hideTitle()"></a></div>
                 </div>
             </div>
         </div>
     </section>
-    <footer>© 2019 by iain511</footer>
+    <div class ="footer">© 2019 by iain511</div>
+    <div id="triangle"></div>
+    <div id="title"></div>
     <nav>
         <div class="nav-menu" id="navMenu">
             <ul>
-                <li id="navlist1" ><a href="./index.html">HOME</a></li>
-                <li id="navlist2" ><a href="./ui.html">UI</a></li>
-                <li id="navlist3" ><a  href="./illustration.html">ILLUSTRATION</a></li>
-                <li id="navlist4" ><a href="./essay.html">ESSAY</a></li>
-                <li class="selected" id="navlist5" ><a href="./about.html">ABOUT 511</a></li>
+                <li id="navlist1" ><a href="./index.html">HOME</a><span></span></li>
+                <li id="navlist2" ><a href="./ui.html">UI</a><span></span></li>
+                <li id="navlist3" ><a  href="./illustration.html">ILLUSTRATION</a><span></span></li>
+                <li id="navlist4" ><a href="./essay.html">ESSAY</a><span></span></li>
+                <li class="selected" id="navlist5" ><a href="./about.html">ABOUT 511</a><span></span></li>
             </ul>
         </div>
         <div class="nav-button" id="navButton"  onclick="toggle(this)">
@@ -51,5 +54,8 @@
             </span>
         </div>
     </nav>   
+    <div class="code" id="code" onclick="hideCode()">
+        <img src="./image/code.jpg" alt="">
+    </div>
 </body>
 </html>

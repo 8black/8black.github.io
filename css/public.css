@@ -17,7 +17,8 @@ p{word-wrap:break-word}
 
 body {
     width: 100% ;
-    min-width: 1200px;
+    min-width: 1040px;
+    min-height: 100%;
 }
     
 .nav-button {
@@ -74,7 +75,7 @@ body {
 .nav-menu ul{
     position: relative;
     top:50%;
-    margin-top:-300px; 
+    margin-top:-250px; 
     height: 440px;
     width: 100%; 
     left: 0px;
@@ -88,13 +89,37 @@ body {
 	font-stretch: normal;
     letter-spacing: 3px;
 }
+@keyframes linemove
+{
+    from {left:-100%;}
+    to {left:0;}
+}
+
+@-webkit-keyframes linemove /*Safari and Chrome*/
+{
+    from {left:-100%;}
+    to {left:0;}
+}
+.nav-menu li:hover span{
+    animation: linemove 0.5s linear forwards;
+}
 .nav-menu a {
+    display: block;
     position: relative;
-    top: 50px;
+    /* top: 50px; */
     padding-left: 100px;
     text-decoration : none;
     color: #b0fc98;
     
+}
+.nav-menu span{
+    left: -100%;
+    display: block;
+    position: relative;
+    top:-50px;
+    width: 100%;
+    height: 1px;
+    background-color: #b0fc98;
 }
 .nav-menu a:hover{
     
@@ -103,18 +128,24 @@ body {
 }
 
 .nav-menu .selected{
-    border-bottom: 1px solid #b0fc98;
+    /* border-bottom: 1px solid #b0fc98; */
 }
 .nav-menu .selected a{
-    color: #000000;
+    /* color: #000000; */
 }
 .content {
     width: 1040px;
     display: grid;
     grid-template-columns: repeat(2, 475px);
-    grid-template-rows: repeat(3, 480px);
     grid-gap: 90px;
     margin: auto; 
+}
+.content .shhmore{
+    width: 1040px;
+    text-align: center;
+    height: 20px;
+    font-family: Geneva;
+	font-size: 20px;
 }
 .content .work{
     cursor: pointer;
@@ -139,51 +170,16 @@ body {
 
 .work {
     border-radius: 4px;
-}
-
-.viewmore {
-    width: 1040px;
-    margin: auto;
-    margin-top: 150px;
-}
-
-.viewmore p{
-    font-family: Geneva;
-    font-size: 20px;
-    color: #666666;
-}
-
-.view {
-    display: grid;
-    grid-template-columns: repeat(3, 300px);
-    grid-gap: 70px;
-    height: 102px;
-    width: 1040px;
-}
-
-.view a {
     display: block;
-    border-radius: 2px;
-    font-family: 'DINNextLTPro';
-	font-size: 30px;
-	font-weight: normal;
-    font-stretch: normal;
-    text-align: center;
-    background-color:  #eeeeee;
-    color: #666666;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    text-decoration:none;
 }
 
-.view a:hover{
-    cursor: pointer;
-    color: #eeeeee;
-    background-color: rgba(73, 206, 32, 0.98);
-    text-decoration : none;
+.work:hover img{
+    box-shadow: 3px 3px 5px 3px #888888;
 }
 
-footer {
+.footer {
+    position: relative;
     text-align: center;
 	font-family: Geneva;
 	font-size: 16px;
@@ -192,20 +188,24 @@ footer {
 	line-height: 0px;
 	letter-spacing: 0px;
     color: #666666;
-    margin-top: 450px;
+    margin-top: 200px;
     width: 100%;
+    height: 50px;
     margin-bottom: 25px;
 }
 
 .detail{
     position: absolute;
+    top: 0px;
     display: none;
     width: 100%;
-    overflow:scroll;
+    overflow:visible;
 }
 .detail-close{
     position: relative;
     width: 100%;
+    height: 100%;
+    padding-bottom:300px; 
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.8);
 }
