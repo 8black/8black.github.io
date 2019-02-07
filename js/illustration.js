@@ -9,4 +9,4 @@ window.addEventListener('scroll',winScroll);
 
 
 let illustrationlist = document.getElementById("illustrationlist")
-renderList(illustrationlist,SETTING.illustrationlist)
+updatalist("illustrationlist",illustrationlist)

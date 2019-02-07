@@ -292,3 +292,45 @@ body {
     font-size: 65px;
     line-height: 60px;
 }
+
+#like {
+    margin-top: 100px;
+    position: relative;
+    width: 200px;
+    height: 90px;
+    padding-top: 10px;
+    left: 50%;
+    margin-left:-100px; 
+    font-family: Geneva;
+}
+.beforeLike{
+    background-color: #f74d49;
+    color: #fff;
+}
+
+.afterLike{
+    color: #f74d49;
+    background-color: #fff;
+}
+#like:hover{
+    cursor: pointer;
+}
+
+#like span{
+    display: block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+#like div{
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+}

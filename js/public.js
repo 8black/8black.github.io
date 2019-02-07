@@ -1,7 +1,32 @@
 let scrollPos = ""
 let detalIndex = 0
 let detailArr =[]
+let detailName=""
 
+function updatalist(listname,ele){
+    detailName=listname
+    detailArr =[]
+    var obj = new XMLHttpRequest();
+    obj.open("POST", "http://13.58.99.6:8080/updatalist", true);
+    // obj.open("POST", "http://localhost:8080/updatalist", true);
+    obj.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    const _ele=ele
+    obj.onreadystatechange = function () {
+        if (obj.readyState == 4 && (obj.status == 200)) {
+            if(obj.responseText!="error"){
+                detailArr = JSON.parse(obj.responseText)
+                if(_ele){
+                    renderList(_ele,detailArr,detailName)
+                }
+            }
+           else{
+               alert("server error")
+           }
+        }
+    }
+    let sendData={listname:listname}
+    obj.send(JSON.stringify(sendData));
+}
 function resize(){
     let botton = document.getElementById("navButton")
     let navMenu = document.getElementById("navMenu")
@@ -49,13 +74,44 @@ function loadDetail(i){
     let image= document.createElement("img")
     image.src= detailArr[detalIndex].detailSrc
     wrap.appendChild(image)
+    var obj = new XMLHttpRequest();
+    obj.open("POST", "http://13.58.99.6:8080/getLike", true);
+    // obj.open("POST", "http://localhost:8080/getLike", true);
+    obj.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    const _wrap=wrap
+    obj.onreadystatechange = function () {
+        if (obj.readyState == 4 && (obj.status == 200)) {
+            if(obj.responseText!="error"){
+                let like = document.createElement("div")
+                like.id="like"
+                like.classList.value="beforeLike"
+                let text = document.createElement("div")
+                text.innerHTML="GIMME A LIKE"
+                let num = document.createElement("span")
+                num.innerHTML=obj.responseText
+                like.appendChild(num)
+                like.appendChild(text)
+                const _i = i
+                like.onclick=function(){
+                    gimmeLike(_i);
+                } 
+
+                _wrap.appendChild(like)
+            }
+           else{
+               alert("server error")
+           }
+        }
+    }
+    let sendData={listname:detailName,id:i}
+    obj.send(JSON.stringify(sendData));
+
+    
 
     detail.style.display="block"
     if(detailC.offsetHeight<document.body.offsetHeight){
-        console.log(detailC.offsetHeight,document.body.offsetHeight)
         detailC.style.height = document.body.offsetHeight-200
     }else{
-        console.log(detailC.offsetHeight,document.body.offsetHeight)
         detailC.style.height=detailC.offsetHeight-300
     }
 
@@ -63,7 +119,33 @@ function loadDetail(i){
         event.stopPropagation();
     })
 }
-function renderList(list, arr){
+function gimmeLike(i){
+    var obj = new XMLHttpRequest();
+    obj.open("POST", "http://13.58.99.6:8080/postdata", true);
+    // obj.open("POST", "http://localhost:8080/postdata", true);
+    obj.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    obj.onreadystatechange = function () {
+        if (obj.readyState == 4 && (obj.status == 200)) {
+            if(obj.responseText=="success"){
+                let like=document.getElementById("like")
+                let num= like.children[0]
+                num.innerHTML=Number(num.innerHTML)+1
+                let text = like.children[1]
+                text.innerHTML="SO DELICIOUS! :P"
+                like.classList.value="afterLike"
+                like.onclick=function(){}
+
+            }else{
+                alert("server error")
+            }
+        }
+    }
+    let sendData={listname:detailName, id:Number(i)}
+    obj.send(JSON.stringify(sendData));
+}
+
+function renderList(list, arr,name){
+    detailName = name
     detailArr = arr
     list.innerHTML=""
     for(let i=0; i<arr.length; i++){

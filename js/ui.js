@@ -9,4 +9,4 @@ window.addEventListener('scroll',winScroll);
 
 
 let homelist = document.getElementById("uilist")
-renderList(uilist,SETTING.uilist)
+updatalist("uilist",uilist)

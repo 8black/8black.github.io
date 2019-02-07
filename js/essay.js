@@ -9,4 +9,4 @@ window.addEventListener('scroll',winScroll);
 
 
 let essaylist = document.getElementById("essaylist")
-renderList(essaylist,SETTING.essaylist)
+updatalist("essaylist",essaylist)
