@@ -97,6 +97,11 @@ function loadDetail(i){
                 } 
 
                 _wrap.appendChild(like)
+                if(detailC.offsetHeight<document.body.offsetHeight){
+                    detailC.style.height = document.body.offsetHeight+100
+                }else{
+                    detailC.style.height=detailC.offsetHeight-300
+                }
             }
            else{
                alert("server error")
@@ -109,11 +114,6 @@ function loadDetail(i){
     
 
     detail.style.display="block"
-    if(detailC.offsetHeight<document.body.offsetHeight){
-        detailC.style.height = document.body.offsetHeight-200
-    }else{
-        detailC.style.height=detailC.offsetHeight-300
-    }
 
     detail.scroll(function(event){
         event.stopPropagation();
