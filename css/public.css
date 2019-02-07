@@ -69,7 +69,8 @@ body {
     width: 600px;
     transition: 1s;
     background-color: #49ce20;
-	opacity: 0.98;
+    opacity: 0.98;
+    z-index: 900;
 }
 
 .nav-menu ul{

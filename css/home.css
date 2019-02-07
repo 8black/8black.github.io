@@ -178,7 +178,7 @@ section {
     to {left:0;}
 }
 .start{
-    z-index: 999;
+    z-index: 800;
     display: block;
     position: fixed;
     top:0;
