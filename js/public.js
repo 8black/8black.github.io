@@ -4,6 +4,7 @@ let detailArr =[]
 let detailName=""
 
 function updatalist(listname,ele){
+    ele.innerHTML=""
     detailName=listname
     detailArr =[]
     var obj = new XMLHttpRequest();
