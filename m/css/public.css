@@ -1,0 +1,337 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0} 
+body{font:12px "HanHei" "SC","PingFang SC",Arial,sans-serif;background:#fff;-webkit-text-size-adjust:100%;} 
+a{color:#2d374b;text-decoration:none} 
+a:hover{color:#cd0200;text-decoration:underline} 
+em{font-style:normal} 
+li{list-style:none} 
+img{border:0;vertical-align:middle} 
+table{border-collapse:collapse;border-spacing:0} 
+p{word-wrap:break-word} 
+
+@font-face {font-family: 'DINNextLTPro';
+    src: url('../../fonts/DINNextLTPro-Bold_0.ttf'); /* IE9*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    width: 100% ;
+    min-width: 1040px;
+    min-height: 100%;
+}
+    
+.nav-button {
+    top:10%;
+    left: 100px;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 910;
+}
+
+
+.nav-button-line{
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 10px;
+    background-color:  rgba(0, 0, 0, 1);
+    transition: 1s;
+}
+
+.nav-button-line-top{
+    top: 9px;
+}
+
+.nav-button-line-bottom{
+    top: 19px;
+}
+
+.close .nav-button-line-top {
+    -webkit-transform: rotate(-45deg) translate(-7px, 7px);
+    transform: rotate(-45deg) translate(-7px, 7px);
+}
+
+.close .nav-button-line-bottom {
+    -webkit-transform: rotate(45deg) translate(-7px, 7px);
+    transform: rotate(45deg) translate(-7px, -7px);
+}
+
+.close .nav-button-line{
+    background-color: #b0fc98;
+}
+.nav-menu {
+    position: fixed;
+    top:0px;
+    left: -600px;
+    height: 100%;
+    width: 600px;
+    transition: 1s;
+    background-color: #49ce20;
+    opacity: 0.98;
+    z-index: 900;
+}
+
+.nav-menu ul{
+    position: relative;
+    top:50%;
+    margin-top:-250px; 
+    height: 440px;
+    width: 100%; 
+    left: 0px;
+}
+
+.nav-menu li{
+    font-family: 'DINNextLTPro';
+    font-size: 65px;
+    line-height: 90px;
+	font-weight: normal;
+	font-stretch: normal;
+    letter-spacing: 3px;
+}
+@keyframes linemove
+{
+    from {left:-100%;}
+    to {left:0;}
+}
+
+@-webkit-keyframes linemove /*Safari and Chrome*/
+{
+    from {left:-100%;}
+    to {left:0;}
+}
+.nav-menu li:hover span{
+    animation: linemove 0.5s linear forwards;
+}
+.nav-menu a {
+    display: block;
+    position: relative;
+    /* top: 50px; */
+    padding-left: 100px;
+    text-decoration : none;
+    color: #b0fc98;
+    
+}
+.nav-menu span{
+    left: -100%;
+    display: block;
+    position: relative;
+    top:-50px;
+    width: 100%;
+    height: 1px;
+    background-color: #b0fc98;
+}
+.nav-menu a:hover{
+    
+    color: #000000;
+    cursor: pointer;
+}
+
+.nav-menu .selected{
+    /* border-bottom: 1px solid #b0fc98; */
+}
+.nav-menu .selected a{
+    /* color: #000000; */
+}
+.content {
+    width: 1040px;
+    display: grid;
+    grid-template-columns: repeat(2, 475px);
+    grid-gap: 90px;
+    margin: auto; 
+}
+.content .shhmore{
+    width: 1040px;
+    text-align: center;
+    height: 20px;
+    font-family: Geneva;
+	font-size: 20px;
+}
+.content .work{
+    cursor: pointer;
+}
+.content img{
+    width: 475px;
+    height: 370px;
+    margin-bottom:20px; 
+}
+.content h1{
+    font-family: 'DINNextLTPro';
+    font-size: 40px;
+    line-height: 40px;
+    color: #000000;
+    position: relative;
+    margin-bottom:5px; 
+}
+.content p{
+    font-family: Geneva;
+    font-size: 20px;
+}
+
+.work {
+    border-radius: 4px;
+    display: block;
+    text-decoration:none;
+}
+
+.work:hover img{
+    box-shadow: 3px 3px 5px 3px #888888;
+}
+
+.footer {
+    position: relative;
+    text-align: center;
+	font-family: Geneva;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0px;
+	letter-spacing: 0px;
+    color: #666666;
+    margin-top: 200px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.detail{
+    position: absolute;
+    top: 0px;
+    display: none;
+    width: 100%;
+    overflow:visible;
+}
+.detail-close{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-bottom:300px; 
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.wrap{
+    display: block;
+    position: relative;
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right:80px;
+    padding-bottom: 100px; 
+    left: 50%;
+    margin-left:-600px; 
+    top:150px;
+    width: 1040px;
+    background-color: #ffffff;
+    cursor: default;
+}
+.wrap h1{
+    font-family: 'DINNextLTPro';
+    font-size: 65px;
+    line-height: 60px;
+}
+
+.wrap h2{
+    font-family: Geneva;
+    font-size: 20px;
+    line-height: 30px;
+    color: #666666;
+}
+
+.wrap p{
+    margin-top:30px; 
+    font-family: Geneva;
+    font-size: 20px;
+    line-height: 20px;
+    color: #666666;
+    margin-bottom:50px; 
+}
+
+.wrap img{
+    width: 1040px;
+}
+.detail .page-btn{
+    display: block;
+    position: fixed;
+    width: 67px;
+    height: 67px;
+    top:50%;
+    margin-top: -34px;
+    cursor: pointer;
+    object-fit: cover; 
+}
+
+.page-left{
+    left: 100px;
+    background-image: url(../image/left.png)
+}
+.page-left:hover{
+    background-image: url(../image/left-h.png)
+}
+
+.page-right{
+    left: 100%;
+    margin-left:-168px;
+    background-image: url(../image/right.png)
+}
+.page-right:hover{
+    background-image: url(../image/right-h.png)
+}
+
+.sub-page-title{
+    position: relative;
+    width: 1040px;
+    height: 200px;
+    left: 50%;
+    margin-left: -520px;
+    top:10%;
+}
+
+.sub-page-title h1{
+    font-family: 'DINNextLTPro';
+    font-size: 65px;
+    line-height: 60px;
+}
+
+#like {
+    margin-top: 100px;
+    position: relative;
+    width: 200px;
+    height: 90px;
+    padding-top: 10px;
+    left: 50%;
+    margin-left:-100px; 
+    font-family: Geneva;
+}
+.beforeLike{
+    background-color: #f74d49;
+    color: #fff;
+}
+
+.afterLike{
+    color: #f74d49;
+    background-color: #fff;
+}
+#like:hover{
+    cursor: pointer;
+}
+
+#like span{
+    display: block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+#like div{
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+}

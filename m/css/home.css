@@ -1,0 +1,199 @@
+@keyframes scrollmove
+{
+    from {top:0;}
+    to {top:85%;}
+}
+
+@-webkit-keyframes scrollmove /*Safari and Chrome*/
+{
+    from {top:0;}
+    to {top:85%;}
+}
+
+section {
+    width: 100%;
+    height: 100%;
+}
+
+.banner{
+    height: 100%;
+    width: 100%;
+    min-height: 150px;
+    font-weight: normal;
+    font-stretch: normal;
+}
+
+.slogan{
+    position: relative;
+    margin:0 auto;
+    top:50%;
+    width: 800px;
+    height: 130px;
+}
+
+.slogan h1{
+    position: relative;
+    top: -65px;
+    text-align: center;
+    font-size:100px;
+    font-family: 'DINNextLTPro';
+    height: 100px;
+    line-height: 100px;
+}
+
+.slogan p{
+    position: relative;
+    top: -65px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-family: Geneva;
+    font-size: 20px;
+    letter-spacing: 1px;
+	color: #666666;
+}
+.line-scroll{
+    position: fixed;
+    width: 30px;
+    left: 50%;
+    margin-left: -15px;
+    top:75%;
+    height: 30%;
+}
+.line-scroll-back{
+    position: relative;
+    left: 50%;
+    margin-left:-1px;
+    display: block;
+    width: 2px;
+    height: 100%;
+    background-color:  rgba(0, 0, 0, 0.1);
+}
+
+.line-scroll-front{
+    position: relative;
+    display: block;
+    width: 2px;
+    height: 30%;
+    background-color:  rgba(0, 0, 0, 1);
+    /* animation:scrollmove 2s infinite; */
+    animation: scrollmove 2s linear infinite;
+    -webkit-animation:scrollmove 2s linear infinite; /*Safari and Chrome*/
+}
+
+.viewmore {
+    width: 1040px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.viewmore p{
+    font-family: Geneva;
+    font-size: 20px;
+    color: #666666;
+}
+
+
+.viewmore {
+    width: 1040px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.viewmore p{
+    font-family: Geneva;
+    font-size: 20px;
+    color: #666666;
+}
+
+.view {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-gap: 70px;
+    height: 102px;
+    width: 1040px;
+}
+
+.view a span{
+    z-index: 1;
+    left: 50px;
+    width: 200px;
+    text-align: center;
+    position: absolute;
+}
+
+.view a {
+    display: block;
+    border-radius: 2px;
+    font-family: 'DINNextLTPro';
+	font-size: 30px;
+	font-weight: normal;
+    font-stretch: normal;
+    text-align: center;
+    color: #666666;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    transition:all 0.4s;
+    background-color: #eeeeee;
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 102px;
+    box-sizing: border-box;
+}
+.view a::before{
+    content: "";
+    transition: all 0.4s;
+    background: #49ce20;
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 0px;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.view a:hover::before{
+    width: 100%;
+}
+
+
+.view a:hover{
+    cursor: pointer;
+    color: #b0fc98;
+    text-decoration : none;
+}
+
+
+@keyframes startlinemove
+{
+    from {left:-100%;}
+    to {left:0;}
+}
+
+@-webkit-keyframes startlinemove /*Safari and Chrome*/
+{
+    from {left:-100%;}
+    to {left:0;}
+}
+.start{
+    z-index: 800;
+    display: block;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+
+.start .startline{
+    position: fixed;
+    top:50%;
+    width: 100%;
+    height: 1px;
+    margin-top:-1px; 
+    background-color: #000000;
+    animation: startlinemove 2s linear forwards;
+}
