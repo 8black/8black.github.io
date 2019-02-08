@@ -10,7 +10,7 @@ http.createServer(function (req, res) {
             　postData += postDataChunk;
     　　});
     　　req.on('end',function(){
-            let filedata = fs.readFileSync('../js/conf.js').toString().split("=")[1]
+            let filedata = fs.readFileSync('../data/conf.js').toString().split("=")[1]
             filedata = JSON.parse(filedata)
             let params = JSON.parse(postData.toString())
             let list =[]
@@ -27,7 +27,7 @@ http.createServer(function (req, res) {
                 list[params.id].like+=1
                 let header = "let SETTING="
                 let string = header+JSON.stringify(filedata, null, "\t");
-                fs.writeFileSync('../js/conf.js', string)
+                fs.writeFileSync('../data/conf.js', string)
             　　res.end("success");
             }else{
                 res.end("error");
@@ -40,7 +40,7 @@ http.createServer(function (req, res) {
             　postData += postDataChunk;
     　　});
     　　req.on('end',function(){
-            let filedata = fs.readFileSync('../js/conf.js').toString().split("=")[1]
+            let filedata = fs.readFileSync('../data/conf.js').toString().split("=")[1]
             filedata = JSON.parse(filedata)
             let params = JSON.parse(postData.toString())
             let list =[]
@@ -67,7 +67,7 @@ http.createServer(function (req, res) {
             　postData += postDataChunk;
     　　});
     　　req.on('end',function(){
-            let filedata = fs.readFileSync('../js/conf.js').toString().split("=")[1]
+            let filedata = fs.readFileSync('../data/conf.js').toString().split("=")[1]
             filedata = JSON.parse(filedata)
             let params = JSON.parse(postData.toString())
             let list =[]
