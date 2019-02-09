@@ -32,16 +32,16 @@ function resize(){
     let botton = document.getElementById("navButton")
     let navMenu = document.getElementById("navMenu")
 
-    let width ="50%"
-    if( window.innerWidth  <1200){
-        width = "600px"
-    }
+    let width ="95%"
     navMenu.style.width=width
     if(botton.classList.value.indexOf('open') >0){
         navMenu.style.left = "0"
-        
+        document.body.style.height="100%"
+        document.body.style.overflow="hidden"
     }else{
         navMenu.style.left = "-"+width
+        document.body.style.height=""
+        document.body.style.overflow=""
     }
 }
 function toggle(menu) {
@@ -160,7 +160,7 @@ function renderList(list, arr,name){
             loadDetail(_i);
         } 
         let image= document.createElement("img")
-        image.src= arr[i].imgSrc
+        image.src= "../"+arr[i].imgSrc
         ele.appendChild(image);
         let title = document.createElement("h1")
         title.innerHTML=arr[i].title
@@ -216,5 +216,3 @@ function selectedNav(ele){
 window.onresize=function(){
     resize();
 }
-
-

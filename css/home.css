@@ -93,19 +93,6 @@ section {
     color: #666666;
 }
 
-
-.viewmore {
-    width: 1040px;
-    margin: auto;
-    margin-top: 150px;
-}
-
-.viewmore p{
-    font-family: Geneva;
-    font-size: 20px;
-    color: #666666;
-}
-
 .view {
     display: grid;
     grid-template-columns: repeat(3, 300px);
