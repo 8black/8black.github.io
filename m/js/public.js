@@ -54,9 +54,23 @@ function loadDetail(i){
     document.body.scrollTop=0
 
     let detail = document.getElementsByClassName("detail")[0]
-    let detailC = document.getElementsByClassName("detail-close")[0]
 
     let wrap = document.getElementsByClassName("wrap")[0]
+
+    let content = document.getElementsByClassName("content")[0]
+    content.style.display = "none"
+
+    let viewmorea = document.getElementsByClassName("viewmore")
+    if(viewmorea){
+        let viewmore=viewmorea[0]
+        viewmore.style.display = "none"
+    }
+    let bannera = document.getElementsByTagName("section");
+    if(bannera){
+        let banner=bannera[0]
+        banner.style.display = "none"
+    }
+
     wrap.innerHTML=""
     wrap.onclick=function(e){ 
         e.stopPropagation();
@@ -73,7 +87,7 @@ function loadDetail(i){
     description.innerHTML=detailArr[detalIndex].description
     wrap.appendChild(description)
     let image= document.createElement("img")
-    image.src= detailArr[detalIndex].detailSrc
+    image.src=  "../"+detailArr[detalIndex].detailSrc
     wrap.appendChild(image)
     var obj = new XMLHttpRequest();
     obj.open("POST", "http://13.58.99.6:8080/getLike", true);
@@ -96,13 +110,7 @@ function loadDetail(i){
                 like.onclick=function(){
                     gimmeLike(_i);
                 } 
-
                 _wrap.appendChild(like)
-                if(detailC.offsetHeight<document.body.offsetHeight){
-                    detailC.style.height = document.body.offsetHeight+100
-                }else{
-                    detailC.style.height=detailC.offsetHeight-300
-                }
             }
            else{
                alert("server error")
@@ -116,9 +124,6 @@ function loadDetail(i){
 
     detail.style.display="block"
 
-    detail.scroll(function(event){
-        event.stopPropagation();
-    })
 }
 function gimmeLike(i){
     var obj = new XMLHttpRequest();
@@ -162,6 +167,7 @@ function renderList(list, arr,name){
         let image= document.createElement("img")
         // image.src= "../"+arr[i].imgSrc
         image.style.background= "url("+"../"+arr[i].imgSrc+")";
+        image.style.backgroundPosition="center"
         ele.appendChild(image);
         let title = document.createElement("h1")
         title.innerHTML=arr[i].title
@@ -183,7 +189,19 @@ function renderList(list, arr,name){
 
 function closeDetail(){
     let detail = document.getElementsByClassName("detail")[0]
+    let content = document.getElementsByClassName("content")[0]
+    content.style.display="block"
     detail.style.display = "none"
+    let viewmorea = document.getElementsByClassName("viewmore")
+    if(viewmorea){
+        let viewmore=viewmorea[0]
+        viewmore.style.display = "block"
+    }
+    let bannera = document.getElementsByTagName("section");
+    if(bannera){
+        let banner=bannera[0]
+        banner.style.display = "block"
+    }
     document.body.scrollTop=scrollPos
 }
 

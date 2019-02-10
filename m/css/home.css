@@ -125,28 +125,7 @@ section {
     overflow: hidden;
     box-sizing: border-box;
 }
-.view a::before{
-    content: "";
-    transition: all 0.4s;
-    background: #49ce20;
-    display: block;
-    position: absolute;
-    height: 100%;
-    width: 0px;
-    top: 0;
-    left: 0;
-    z-index: 0;
-}
-.view a:hover::before{
-    width: 100%;
-}
 
-
-.view a:hover{
-    cursor: pointer;
-    color: #b0fc98;
-    text-decoration : none;
-}
 
 @keyframes startlinemove
 {

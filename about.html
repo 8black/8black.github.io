@@ -6,8 +6,24 @@
     <title>511</title>
     <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="css/about.css">
-    <script  type="text/javascript" src = "js/public.js"></script>
-    <script type="text/javascript" src = "data/about.js"></script>
+    <script type="text/javascript" src = "js/about.js"></script>
+    <script type="text/javascript">
+        function IsPC() {
+            var userAgentInfo = navigator.userAgent;
+            var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");
+            var flag = true;
+            for (var v = 0; v < Agents.length; v++) {
+              if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                flag = false;
+                break;
+              }
+            }
+            return flag;
+        }
+        if (IsPC() == false){
+            window.location.href = "./m/about.html"
+        } 
+    </script>
 </head>
 <body class="" onmousemove="mouseMove(event)">
     <div class="sub-page-title">
@@ -26,7 +42,7 @@
                 <p>If you come up with some suggestions with my work, or feel inspiring, please comment in any kind of ways. I appreciate every single piece of feedback from you.</p>
                 <p>And yeah, nice to meet you, too."</p>
                 <div class="link">
-                    <div class="zcool" > <a target="_blank" onmouseover="showTitle(this,'Follow me on Zcool')" onmouseout="hideTitle()"></a></div>
+                    <div class="zcool" > <a target="_blank" href = "https://www.zcool.com.cn/u/12903421" onmouseover="showTitle(this,'Follow me on Zcool')" onmouseout="hideTitle()"></a></div>
                     <div class="weibo" ><a target="_blank" href="https://weibo.com/207078129?is_all=1&stat_date=201808&pids=Pl_Official_MyProfileFeed__20#feedtop" onmouseover="showTitle(this,'Follow me on Weibo')" onmouseout="hideTitle()"></a></div>
                     <div class="wechat" ><a onclick="showCode()" onmouseover="showTitle(this,'Contact me by Wechat')" onmouseout="hideTitle()"></a></div>
                 </div>
@@ -56,5 +72,7 @@
     <div class="code" id="code" onclick="hideCode()">
         <img src="./image/code.jpg" alt="">
     </div>
+
+    <script  type="text/javascript" src = "js/public.js"></script>
 </body>
 </html>

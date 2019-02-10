@@ -9,15 +9,38 @@ function mouseMove(e){
     let skewFront = 5 + percentY*10
     let skewBack = -percentY*10
 
-    let rotateFront = 20*(percentX-0.5)
-    let rotateBack = -60*(percentX-0.5)
+    let rotateFront = 0
+    let rotateBack = 0
+
+    var userAgentInfo = navigator.userAgent;
+    var Agents = "Chrome";
+    let flag=false
+   if (userAgentInfo.indexOf(Agents) > 0) {
+        flag = true;
+    }
+    
+    if(flag){
+        rotateFront = 20*(percentX-0.5)
+        rotateBack = -60*(percentX-0.5)
+    }
+
 
     let frontEle = document.getElementById("animFront")
     let backEle = document.getElementById("animBack")
 
 
     let frontTransform= "transform:perspective(1500px) skewY("+skewFront.toString()+"deg) rotateY("+rotateFront.toString()+"deg);"
+    frontTransform+="-ms-transform:transform:perspective(1500px) skewY("+skewFront.toString()+"deg) rotateY("+rotateFront.toString()+"deg);"
+    frontTransform+="moz-transform:transform:perspective(1500px) skewY("+skewFront.toString()+"deg) rotateY("+rotateFront.toString()+"deg);"
+    frontTransform+="-webkit-transform:transform:perspective(1500px) skewY("+skewFront.toString()+"deg) rotateY("+rotateFront.toString()+"deg);"
+    frontTransform+="-o-transform:transform:perspective(1500px) skewY("+skewFront.toString()+"deg) rotateY("+rotateFront.toString()+"deg);"
+
+
     let backTransform= "transform:perspective(2000px) skewY("+skewBack.toString()+"deg) rotateY("+rotateBack.toString()+"deg);"
+    backTransform += "-ms-transform:perspective(2000px) skewY("+skewBack.toString()+"deg) rotateY("+rotateBack.toString()+"deg);"
+    backTransform += "moz-transform:perspective(2000px) skewY("+skewBack.toString()+"deg) rotateY("+rotateBack.toString()+"deg);"
+    backTransform += "-webkit-transform:perspective(2000px) skewY("+skewBack.toString()+"deg) rotateY("+rotateBack.toString()+"deg);"
+    backTransform += "-o-transform:perspective(2000px) skewY("+skewBack.toString()+"deg) rotateY("+rotateBack.toString()+"deg);"
     frontEle.style=frontTransform
     backEle.style=backTransform
 }
