@@ -50,8 +50,14 @@ function toggle(menu) {
     resize()
 }
 function loadDetail(i){
+    scrollPos = document.body.scrollTop
+    document.body.scrollTop=0
 
     let detail = document.getElementsByClassName("detail")[0]
+
+    detail.addEventListener('touchmove', function (e) {
+        e.preventDefault(); //阻止默认的处理方式(阻止下拉滑动的效果)
+      }, {passive: false});
 
     let wrap = document.getElementsByClassName("wrap")[0]
 
@@ -70,6 +76,9 @@ function loadDetail(i){
     }
 
     wrap.innerHTML=""
+    wrap.onclick=function(e){ 
+        e.stopPropagation();
+    }
    
     detalIndex = Number(i)
     let title = document.createElement("h1")
@@ -197,6 +206,7 @@ function closeDetail(){
         let banner=bannera[0]
         banner.style.display = "block"
     }
+    document.body.scrollTop=scrollPos
 }
 
 function pageLeft(){
