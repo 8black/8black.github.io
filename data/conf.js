@@ -81,7 +81,7 @@ let SETTING={
 			"imgSrc": "data/img/20190102.png",
 			"detailSrc": "data/img/2-1.png",
 			"like": 2
-		},
+		}
 	],
 	"illustrationlist": [
 		{
