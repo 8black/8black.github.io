@@ -55,10 +55,6 @@ function loadDetail(i){
 
     let detail = document.getElementsByClassName("detail")[0]
 
-    detail.addEventListener('touchmove', function (e) {
-        e.preventDefault(); //阻止默认的处理方式(阻止下拉滑动的效果)
-      }, {passive: false});
-
     let wrap = document.getElementsByClassName("wrap")[0]
 
     let content = document.getElementsByClassName("content")[0]
@@ -184,10 +180,13 @@ function renderList(list, arr,name){
     }
 
     //Shhh... trying to design more here
-    let ele = document.createElement("div");
-    ele.className+=" "+"shhmore"
-    ele.innerHTML="Shhh... trying to design more here"
-    list.appendChild(ele);
+    if(detailName !="homelist"){
+        let ele = document.createElement("div");
+        ele.className+=" "+"shhmore"
+        ele.innerHTML="Shhh... trying to design more here"
+        list.appendChild(ele);s
+    }
+
 }
 
 
