@@ -61,12 +61,12 @@ function loadDetail(i){
     content.style.display = "none"
 
     let viewmorea = document.getElementsByClassName("viewmore")
-    if(viewmorea){
+    if(viewmorea.length>0){
         let viewmore=viewmorea[0]
         viewmore.style.display = "none"
     }
     let bannera = document.getElementsByTagName("section");
-    if(bannera){
+    if(bannera.length>0){
         let banner=bannera[0]
         banner.style.display = "none"
     }
@@ -193,12 +193,12 @@ function closeDetail(){
     content.style.display="block"
     detail.style.display = "none"
     let viewmorea = document.getElementsByClassName("viewmore")
-    if(viewmorea){
+    if(viewmorea.length>0){
         let viewmore=viewmorea[0]
         viewmore.style.display = "block"
     }
     let bannera = document.getElementsByTagName("section");
-    if(bannera){
+    if(bannera.length>0){
         let banner=bannera[0]
         banner.style.display = "block"
     }
