@@ -82,9 +82,9 @@ section {
 
 .viewmore {
     padding-top: 2rem;
-    padding-left: 1rem;
-    padding-right: 1rem; 
-    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%; 
+    width: 80%;
     margin: auto;
 }
 
@@ -98,7 +98,7 @@ section {
 
 .view {
     display: grid;
-    grid-template-columns: repeat(1, 80%);
+    grid-template-columns: repeat(1, 100%);
     grid-gap: 0.4rem;
 }
 
