@@ -201,7 +201,8 @@ body {
     top: 0px;
     display: none;
     width: 100%;
-    overflow:visible;
+    overflow:visible;    
+    z-index: 99;
 }
 .detail-close{
     position: relative;
