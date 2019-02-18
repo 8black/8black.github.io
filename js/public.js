@@ -72,9 +72,11 @@ function loadDetail(i){
     let description = document.createElement("p")
     description.innerHTML=detailArr[detalIndex].description
     wrap.appendChild(description)
-    let image= document.createElement("img")
-    image.src= detailArr[detalIndex].detailSrc
-    wrap.appendChild(image)
+    for(let i=0; i<detailArr[detalIndex].detailSrc.length; i++){
+        let image= document.createElement("img")
+        image.src= detailArr[detalIndex].detailSrc[i]
+        wrap.appendChild(image)
+    }
     var obj = new XMLHttpRequest();
     obj.open("POST", "http://13.58.99.6:8080/getLike", true);
     // obj.open("POST", "http://localhost:8080/getLike", true);
