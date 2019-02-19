@@ -8,7 +8,7 @@ function updatalist(listname,ele){
     detailName=listname
     detailArr =[]
     var obj = new XMLHttpRequest();
-    obj.open("POST", "http://13.58.99.6:8080/updatalist", true);
+    obj.open("POST", "http://47.92.196.100:8080/updatalist", true);
     // obj.open("POST", "http://localhost:8080/updatalist", true);
     obj.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     const _ele=ele
@@ -92,7 +92,7 @@ function loadDetail(i){
         wrap.appendChild(image)
     }
     var obj = new XMLHttpRequest();
-    obj.open("POST", "http://13.58.99.6:8080/getLike", true);
+    obj.open("POST", "http://47.92.196.100:8080/getLike", true);
     // obj.open("POST", "http://localhost:8080/getLike", true);
     obj.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     const _wrap=wrap
@@ -129,7 +129,7 @@ function loadDetail(i){
 }
 function gimmeLike(i){
     var obj = new XMLHttpRequest();
-    obj.open("POST", "http://13.58.99.6:8080/postdata", true);
+    obj.open("POST", "http://47.92.196.100:8080/postdata", true);
     // obj.open("POST", "http://localhost:8080/postdata", true);
     obj.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     obj.onreadystatechange = function () {
