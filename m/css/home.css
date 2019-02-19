@@ -63,7 +63,7 @@ section {
     left: 50%;
     margin-left:-1px;
     display: block;
-    width: 2px;
+    width: 4px;
     height: 100%;
     background-color:  rgba(0, 0, 0, 0.1);
 }
@@ -71,7 +71,7 @@ section {
 .line-scroll-front{
     position: relative;
     display: block;
-    width: 2px;
+    width: 4px;
     height: 30%;
     background-color:  rgba(0, 0, 0, 1);
     /* animation:scrollmove 2s infinite; */
