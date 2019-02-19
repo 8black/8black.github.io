@@ -73,9 +73,11 @@ function loadDetail(i){
     description.innerHTML=detailArr[detalIndex].description
     wrap.appendChild(description)
     for(let i=0; i<detailArr[detalIndex].detailSrc.length; i++){
+        let imagewrap = document.createElement("div")
         let image= document.createElement("img")
+        imagewrap.appendChild(image)
         image.src= detailArr[detalIndex].detailSrc[i]
-        wrap.appendChild(image)
+        wrap.appendChild(imagewrap)
     }
     var obj = new XMLHttpRequest();
     obj.open("POST", "http://13.58.99.6:8080/getLike", true);
@@ -104,6 +106,9 @@ function loadDetail(i){
                     detailC.style.height = document.body.offsetHeight+100
                 }else{
                     detailC.style.height=detailC.offsetHeight-300
+                }
+                if(detailC.offsetHeight < _wrap.offsetHeight){
+                    detailC.style.height= _wrap.offsetHeight+50;
                 }
             }
            else{
@@ -179,7 +184,7 @@ function renderList(list, arr,name){
         let ele = document.createElement("div");
         ele.className+=" "+"shhmore"
         ele.innerHTML="Shhh... trying to design more here"
-        list.appendChild(ele);s
+        list.appendChild(ele);
     }
 }
 

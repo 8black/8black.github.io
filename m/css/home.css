@@ -118,7 +118,7 @@ section {
     font-stretch: normal;
     text-align: center;
     color: #666666;
-    padding-top: 0.25rem;
+    padding-top: 0.32rem;
     transition:all 0.4s;
     background-color: #eeeeee;
     position: relative;
@@ -138,6 +138,16 @@ section {
     from {left:-100%;}
     to {left:0;}
 }
+
+@keyframes hidetip {
+    from {opcity: 1;}
+    to {opacity: 0;}
+}
+@-webkit-keyframes hidetip {
+    from {opcity: 1;}
+    to {opacity: 0;}
+}
+
 .start{
     z-index: 800;
     display: block;
@@ -156,5 +166,5 @@ section {
     height: 1px;
     margin-top:-1px; 
     background-color: #000000;
-    animation: startlinemove 2s linear forwards;
+    animation: startlinemove 0.5s linear forwards;
 }

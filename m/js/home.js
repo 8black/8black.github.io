@@ -13,5 +13,11 @@ updatalist("homelist",homelist)
 
 setTimeout(() => {
     let start = document.getElementById("start")
-    start.style.display="none"
-}, 2000);
+    start.style.animation="hidetip 1s linear forwards"
+    let startline = document.getElementById("startline")
+    startline.style.display="none"
+    setTimeout(()=>{
+        let start = document.getElementById("start")
+        start.style.display="none"
+    }, 1000)
+}, 500);
