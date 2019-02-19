@@ -306,7 +306,7 @@ body {
 .sub-page-title{
     position: fixed;
     top:0;
-    padding-left:25%;
+    padding-left:2rem;
     width: 75%; 
     padding-top:0.8rem;
     background: #ffffff;
