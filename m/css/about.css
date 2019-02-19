@@ -30,8 +30,8 @@ section {
 
 .about-wrap{
     position: relative;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0.533rem;
+    padding-right: 0.533rem;
     padding-top: 0.5rem;
 }
 
@@ -69,7 +69,7 @@ section {
 
 .right p{
 	font-family: 'Geneva';
-    font-size: 0.4rem;
+    font-size: 0.373rem;
     line-height: 0.6rem;
 }
 
