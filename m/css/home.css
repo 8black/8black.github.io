@@ -46,9 +46,8 @@ section {
     padding-right: 1rem; 
     line-height: 0.8rem;
     text-align: left;
-    font-family: Geneva;
-    font-size: 0.4rem;
-    letter-spacing: 0.05rem;
+    font-family: 'Geneva';
+    font-size: 0.373rem;
 	color: #666666;
 }
 .line-scroll{
@@ -90,7 +89,7 @@ section {
 
 .viewmore p{
     margin-bottom: 0.8rem;
-    font-family: Geneva;
+    font-family: 'Geneva';
     font-size: 0.4rem;
     color: #666666;
 }

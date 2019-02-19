@@ -74,7 +74,7 @@ section {
 }
 
 .right p{
-	font-family: Geneva;
+	font-family: 'Geneva';
     font-size: 20px;
     line-height: 32px;
 	letter-spacing: 0px;
@@ -126,7 +126,7 @@ section {
     width: 240px;
     height: 30px;
     line-height: 30px;
-    font-family: Geneva;
+    font-family: 'Geneva';
 	font-size: 20px;
     background-color:#eeeeee;
     color: #666666;

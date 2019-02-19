@@ -47,7 +47,7 @@ section {
     height: 20px;
     line-height: 20px;
     text-align: center;
-    font-family: Geneva;
+    font-family: 'Geneva';
     font-size: 20px;
     letter-spacing: 1px;
 	color: #666666;
@@ -88,7 +88,7 @@ section {
 }
 
 .viewmore p{
-    font-family: Geneva;
+    font-family: 'Geneva';
     font-size: 20px;
     color: #666666;
 }
