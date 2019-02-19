@@ -19,7 +19,9 @@ p{word-wrap:break-word}
     font-style: normal;
 }
 
-
+.html{
+    background:#fff;
+}
 body {
     width: 100% ;
     min-height: 100%;
