@@ -186,7 +186,7 @@ function renderList(list, arr,name){
         let ele = document.createElement("div");
         ele.className+=" "+"shhmore"
         ele.innerHTML="Shhh... trying to design more here"
-        list.appendChild(ele);s
+        list.appendChild(ele);
     }
 
 }
