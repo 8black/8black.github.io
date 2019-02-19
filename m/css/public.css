@@ -1,6 +1,6 @@
 html{font-size: 12px;}
 body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0} 
-body{font:12px "HanHei" "SC","PingFang SC",Arial,sans-serif;background:#fff;-webkit-text-size-adjust:100%;} 
+body{font:12px "HanHei" "SC","PingFang SC",Arial,sans-serif;background:#fff;-webkit-text-size-adjust:100%;background: #ffffff} 
 a{color:#2d374b;text-decoration:none} 
 a:hover{color:#cd0200;text-decoration:underline} 
 em{font-style:normal} 
@@ -39,18 +39,18 @@ body {
     
 .nav-button {
     position: fixed;
-    top:1rem;
-    left: 1rem;
-    width: 1rem;
-    height: 1rem;
+    top:0.8rem;
+    left: 0.533rem;
+    width: 0.85rem;
+    height: 0.85rem;
 }
 
 
 .nav-button-line{
     display: block;
     position: relative;
-    width: 1rem;
-    height: 0.2rem;
+    width: 0.85rem;
+    height: 0.187rem;
     background-color:  rgba(0, 0, 0, 1);
     transition: 0.4s;
 }
@@ -64,13 +64,13 @@ body {
 }
 
 .close .nav-button-line-top {
-    -webkit-transform: rotate(-45deg) translate(0.14rem, 0.14rem);
-    transform: rotate(-45deg) translate(-0.14rem, 0.14rem);
+    -webkit-transform: rotate(-45deg) translate(0.13rem, 0.13rem);
+    transform: rotate(-45deg) translate(-0.13rem, 0.13rem);
 }
 
 .close .nav-button-line-bottom {
-    -webkit-transform: rotate(45deg) translate(-0.14rem, 0.14rem);
-    transform: rotate(45deg) translate(-0.14rem, -0.14rem);
+    -webkit-transform: rotate(45deg) translate(-0.13rem, 0.13rem);
+    transform: rotate(45deg) translate(-0.13rem, -0.13rem);
 }
 
 .close .nav-button-line{
@@ -101,8 +101,8 @@ body {
 
 .nav-menu li{
     font-family: 'DINNextLTPro';
-    font-size: 1.2rem;
-    line-height: 2rem;
+    font-size: 1.06rem;
+    line-height: 1.8rem;
 	font-weight: normal;
 	font-stretch: normal;
     letter-spacing: 0.01rem;
@@ -111,7 +111,7 @@ body {
 .nav-menu a {
     display: block;
     position: relative;
-    padding-left: 1rem;
+    padding-left: 0.533rem;
     text-decoration : none;
     color: #b0fc98;
     
@@ -136,11 +136,12 @@ body {
     text-align: center;
     height: 1rem;
     font-family: 'Geneva';
-	font-size: 0.4rem;
+    font-size: 0.373rem;
+    color: #666666;
 }
 .content .work{
-    padding-left:1rem; 
-    padding-right:1rem; 
+    padding-left:0.533rem; 
+    padding-right:0.533rem; 
     cursor: pointer;
 }
 .content img{
@@ -150,15 +151,15 @@ body {
 }
 .content h1{
     font-family: 'DINNextLTPro';
-    font-size: 1rem;
-    line-height: 1rem;
+    font-size: 0.667rem;
+    line-height: 0.8rem;
     color: #000000;
     position: relative;
     margin-bottom:5px; 
 }
 .content p{
     font-family: 'Geneva';
-    font-size: 0.4rem;
+    font-size: 0.373rem;
     color: #666666;
 }
 
@@ -173,7 +174,7 @@ body {
     position: relative;
     text-align: center;
 	font-family: 'Geneva';
-	font-size: 0.4rem;
+	font-size: 0.373rem;
 	font-weight: normal;
 	font-stretch: normal;
     color: #666666;
@@ -187,9 +188,9 @@ body {
     position: absolute;
     top: 0;
     display: none;
-    width: 80%;
-    padding-left:10%;
-    padding-right:10%;
+    width: 89.34%;
+    padding-left:0.533rem; 
+    padding-right:0.533rem; 
     background:#fff;
     padding-bottom:1rem;  
 }
@@ -197,39 +198,40 @@ body {
 .closebtn{
     position: fixed;
     top:0;
+    left: 0;
     display: block;
     width: 100%;
-    height: 3rem;
+    height: 2.6rem;
     background: #fff;
 }
 
 .close-button {
     position: relative;
-    top:1rem;
-    left: 0;
-    width: 1rem;
-    height: 1rem;
+    left: 0.533rem;
+    top:0.8rem;
+    width: 0.85rem;
+    height: 0.85rem;
 }
 
 
 .close-button-line{
     display: block;
     position: relative;
-    width: 0.8rem;
-    height: 0.2rem;
+    width: 0.6rem;
+    height: 0.187rem;
     background-color:  rgba(0, 0, 0, 1);
     transition: 1s;
 }
 
 .close-button-line-top{
-    -webkit-transform: rotate(-45deg) translate(0.01rem, -0.02rem);
-    transform: rotate(-45deg) translate(0.01rem, -0.02rem);
+    -webkit-transform: rotate(-45deg) translate(-0.07rem, -0.01rem);
+    transform: rotate(-45deg) translate(-0.07rem, -0.01rem);
     top: 0.2rem;
 }
 
 .close-button-line-bottom{
-    -webkit-transform: rotate(45deg) translate(0.02rem, 0.02rem);
-    transform: rotate(45deg) translate(0.02rem, 0.02rem);
+    -webkit-transform: rotate(45deg) translate(-0.07rem, 0.01rem);
+    transform: rotate(45deg) translate(-0.07rem, 0.01rem);
     top: 0.4rem;
 }
 
@@ -239,7 +241,7 @@ body {
     width: 100%;
     background-color: #ffffff;
     cursor: default;
-    padding-top:3rem; 
+    padding-top:2.6rem; 
 }
 .wrap h1{
     font-family: 'DINNextLTPro';
@@ -265,6 +267,7 @@ body {
 
 .wrap img{
     width: 100%;
+    margin-bottom:1.066rem; 
 }
 .detail .page-btn{
     display: block;
@@ -298,15 +301,16 @@ body {
     display: block;
     top:0;
     width: 100%; 
-    height: 3rem;
+    height: 2rem;
 }
 .sub-page-title{
     position: fixed;
     top:0;
     padding-left:25%;
     width: 75%; 
-    padding-top:1rem;
-    background: #fff
+    padding-top:0.8rem;
+    background: #ffffff;
+    height: 1.8rem;
 }
 
 .sub-page-title h1{
@@ -317,7 +321,7 @@ body {
 }
 .sub-page-title div{
     display: block;
-    height: 2rem;
+    height: 1.8rem;
 }
 
 #like {

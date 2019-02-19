@@ -81,9 +81,9 @@ section {
 
 .viewmore {
     padding-top: 2rem;
-    padding-left: 10%;
-    padding-right: 10%; 
-    width: 80%;
+    padding-left:0.533rem; 
+    padding-right:0.533rem; 
+    width: 89.34%;
     margin: auto;
 }
 
@@ -111,13 +111,13 @@ section {
     display: block;
     border-radius: 2px;
     font-family: 'DINNextLTPro';
-    font-size: 0.8rem;
+    font-size: 0.667rem;
     height: 1.5rem;
 	font-weight: normal;
     font-stretch: normal;
     text-align: center;
     color: #666666;
-    padding-top: 0.32rem;
+    padding-top: 0.42rem;
     transition:all 0.4s;
     background-color: #eeeeee;
     position: relative;

@@ -208,6 +208,7 @@ body {
     top: 0px;
     display: none;
     width: 100%;
+    min-width: 1360px;
     overflow:visible;    
     z-index: 999;
 }
@@ -260,7 +261,7 @@ body {
 .wrap div{
     width: 1040px;
     text-align: center;
-
+    margin-bottom:30px; 
 }
 .detail .page-btn{
     display: block;
