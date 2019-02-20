@@ -6,8 +6,8 @@ function mouseMove(e){
     let percentX = x/width
     let percentY = y/height
 
-    let skewFront = 5 + percentY*10
-    let skewBack = -percentY*10
+    let skewFront = 5 + percentY*2
+    let skewBack = -percentY*2
 
     let rotateFront = 0
     let rotateBack = 0
@@ -20,8 +20,8 @@ function mouseMove(e){
     }
     
     if(flag){
-        rotateFront = 20*(percentX-0.5)
-        rotateBack = -60*(percentX-0.5)
+        rotateFront = 10*(percentX-0.5)
+        rotateBack = -10*(percentX-0.5)
     }
 
 

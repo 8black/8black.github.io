@@ -46,7 +46,7 @@ section {
 
 .left .backimg{
     position: relative;
-    top: 150px;
+    top: 80px;
     width: 422px;
     height: 425px;
     background-image: url(../image/IMG_68951.jpg);
@@ -55,9 +55,9 @@ section {
 
 .left .backrect{
     position: relative;
-    top: -380px;
-    left: 90px;
-    width: 250px;
+    top: -410px;
+    left: 190px;
+    width: 200px;
     height: 230px;
     background-color: #49ce20;
     opacity: 0.9;

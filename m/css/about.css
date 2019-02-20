@@ -37,14 +37,15 @@ section {
 
 .left{
     width: 100%;
+    margin-bottom: 1rem;
 }
 
 .left .backimg{
     position: relative;
-    top: 1rem;
+    top: 0rem;
     width: 100%;
-    height: 6rem;
-    background-image: url(../../image/IMG_68951.jpg);
+    height: 10rem;
+    background-image: url(../../image/about.png);
     background-size:cover; 
     background-position: center;
     background-repeat: no-repeat;
@@ -80,12 +81,12 @@ section {
 }
 
 .right .link a{
-    float: right;
+    float: left;
     display: block;
-    width: 1rem;
-    height: 1rem;
-    margin-left:0.2rem; 
-    background-size:1rem 1rem; 
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-right: 0.7rem;
+    background-size: 0.8rem 0.8rem;
     cursor: pointer;
 }
 
