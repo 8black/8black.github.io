@@ -9,7 +9,7 @@ let SETTING={
 				"data/img/3-1.png",
 				"data/img/3-2.png"
 			],
-			"like": 8
+			"like": 9
 		},
 		{
 			"title": "THE BOTTLES 2",
@@ -19,7 +19,7 @@ let SETTING={
 			"detailSrc": [
 				"data/img/4-1.png"
 			],
-			"like": 4
+			"like": 5
 		},
 		{
 			"title": "THE BOTTLES 3",
