@@ -163,6 +163,7 @@ body {
     width: 475px;
     height: 370px;
     margin-bottom:20px; 
+    border-radius: 4px;
 }
 .content h1{
     font-family: 'DINNextLTPro';
@@ -246,6 +247,7 @@ body {
 .wrap h2{
     font-family: 'Geneva';
     font-size: 20px;
+    margin-top: 10px;
     line-height: 30px;
     color: #666666;
 }
@@ -254,10 +256,10 @@ body {
     margin-top:30px; 
     font-family: 'Geneva';
     font-size: 20px;
-    line-height: 30px;
+    line-height: 35px;
     color: #666666;
     margin-bottom:50px; 
-    font-weight: lighter;
+    font-weight: 400;
 }
 
 .wrap div{

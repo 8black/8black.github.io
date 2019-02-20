@@ -71,6 +71,8 @@ section {
     width: 535px;
     padding-left:80px; 
     height: 550px;
+    word-break: break-word;
+    hyphens: auto;
 }
 
 .right p{

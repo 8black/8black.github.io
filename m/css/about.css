@@ -66,12 +66,14 @@ section {
 
 .right{
     width: 100%;
+    word-break: break-word;
+    hyphens: auto;
 }
 
 .right p{
 	font-family: 'Geneva';
     font-size: 0.373rem;
-    line-height: 0.6rem;
+    line-height: 0.7rem;
 }
 
 .right .link{
