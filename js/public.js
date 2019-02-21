@@ -156,7 +156,7 @@ function renderList(list, arr,name){
     detailName = name
     detailArr = arr
     list.innerHTML=""
-    for(let i=0; i<arr.length; i++){
+    for(let i=arr.length-1; i>-1; i--){
         //添加一个子标签
         let id= list.id+i.toString()
         let ele = document.createElement("div");
