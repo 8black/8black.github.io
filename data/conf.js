@@ -40,7 +40,7 @@ let SETTING={
 			"detailSrc": [
 				"data/img/4-1.png"
 			],
-			"like": 2
+			"like": 3
 		},
 		{
 			"title": "THE BOTTLES 5",
@@ -62,7 +62,7 @@ let SETTING={
 				"data/img/4-1.png",
 				"data/img/2-1.png"
 			],
-			"like": 1
+			"like": 2
 		}
 	],
 	"uilist": [
