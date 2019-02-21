@@ -170,6 +170,7 @@ function renderList(list, arr,name){
         // image.src= "../"+arr[i].imgSrc
         image.style.background= "url("+"../"+arr[i].imgSrc+")";
         image.style.backgroundPosition="center"
+        image.style.backgroundSize="contain"
         ele.appendChild(image);
         let title = document.createElement("h1")
         title.innerHTML=arr[i].title
