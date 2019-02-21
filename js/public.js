@@ -8,8 +8,8 @@ function updatalist(listname,ele){
     detailName=listname
     detailArr =[]
     var obj = new XMLHttpRequest();
-    obj.open("POST", "http://47.92.196.100:8080/updatalist", true);
-    // obj.open("POST", "http://localhost:8080/updatalist", true);
+    // obj.open("POST", "http://47.92.196.100:8080/updatalist", true);
+    obj.open("POST", "http://localhost:8080/updatalist", true);
     obj.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     const _ele=ele
     obj.onreadystatechange = function () {
@@ -80,8 +80,8 @@ function loadDetail(i){
         wrap.appendChild(imagewrap)
     }
     var obj = new XMLHttpRequest();
-    obj.open("POST", "http://47.92.196.100:8080/getLike", true);
-    // obj.open("POST", "http://localhost:8080/getLike", true);
+    // obj.open("POST", "http://47.92.196.100:8080/getLike", true);
+    obj.open("POST", "http://localhost:8080/getLike", true);
     obj.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     const _wrap=wrap
     obj.onreadystatechange = function () {
@@ -129,8 +129,8 @@ function loadDetail(i){
 }
 function gimmeLike(i){
     var obj = new XMLHttpRequest();
-    obj.open("POST", "http://47.92.196.100:8080/postdata", true);
-    // obj.open("POST", "http://localhost:8080/postdata", true);
+    // obj.open("POST", "http://47.92.196.100:8080/postdata", true);
+    obj.open("POST", "http://localhost:8080/postdata", true);
     obj.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     obj.onreadystatechange = function () {
         if (obj.readyState == 4 && (obj.status == 200)) {
@@ -176,6 +176,11 @@ function renderList(list, arr,name){
         date.innerHTML= arr[i].date
         ele.appendChild(date);
 
+        list.appendChild(ele);
+    }
+
+    if(arr.length%2 != 0){
+        ele = document.createElement("div");
         list.appendChild(ele);
     }
 

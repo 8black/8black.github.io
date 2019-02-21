@@ -124,6 +124,7 @@ section {
 
  #title{
     position: fixed;
+    display: none;
     text-align: center;
     width: 240px;
     height: 40px;
