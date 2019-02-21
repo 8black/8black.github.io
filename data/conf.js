@@ -118,7 +118,7 @@ let SETTING={
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
 			"imgSrc": "data/illustration-img/s01.jpg",
 			"detailSrc": [
-				"data/illustration-img/01.jpg",
+				"data/illustration-img/01.jpg"
 			],
 			"like": 98
 		},
