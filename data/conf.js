@@ -155,7 +155,7 @@ let SETTING={
 				"data/illustration-img/04-3.jpg",
 				"data/illustration-img/04-4.jpg"
 			],
-			"like": 2
+			"like": 4
 		},
 		{
 			"title": "SUPERWIN",
@@ -182,7 +182,7 @@ let SETTING={
 				"data/illustration-img/06-1.jpg",
 				"data/illustration-img/06-2.jpg"
 			],
-			"like": 1
+			"like": 2
 		},
 		{
 			"title": "TRAVELING",
