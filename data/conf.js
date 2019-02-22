@@ -62,7 +62,7 @@ let SETTING={
 				"data/img/4-1.png",
 				"data/img/2-1.png"
 			],
-			"like": 2
+			"like": 3
 		}
 	],
 	"uilist": [
@@ -250,7 +250,7 @@ let SETTING={
 			"detailSrc": [
 				"data/illustration-img/12.jpg"
 			],
-			"like": 1
+			"like": 2
 		},
 		{
 			"title": "DANCE TEACHERS",
@@ -274,7 +274,7 @@ let SETTING={
 				"data/illustration-img/14-2.jpg",
 				"data/illustration-img/14-3.jpg"
 			],
-			"like": 1
+			"like": 2
 		},
 		{
 			"title": "CHRISTMAS",
