@@ -49,6 +49,24 @@ function toggle(menu) {
     menu.classList.toggle("close");
     resize()
 }
+
+function closeDetail(){
+    let detail = document.getElementsByClassName("detail")[0]
+    let content = document.getElementsByClassName("content")[0]
+    content.style.display="grid"
+    detail.style.display = "none"
+    let viewmorea = document.getElementsByClassName("viewmore")
+    if(viewmorea.length>0){
+        let viewmore=viewmorea[0]
+        viewmore.style.display = "block"
+    }
+    let bannera = document.getElementsByTagName("section");
+    if(bannera.length>0){
+        let banner=bannera[0]
+        banner.style.display = "block"
+    }
+    document.body.scrollTop=scrollPos
+}
 function loadDetail(i){
     scrollPos = document.body.scrollTop
     document.body.scrollTop=0
@@ -194,24 +212,6 @@ function renderList(list, arr,name){
 
 }
 
-
-function closeDetail(){
-    let detail = document.getElementsByClassName("detail")[0]
-    let content = document.getElementsByClassName("content")[0]
-    content.style.display="block"
-    detail.style.display = "none"
-    let viewmorea = document.getElementsByClassName("viewmore")
-    if(viewmorea.length>0){
-        let viewmore=viewmorea[0]
-        viewmore.style.display = "block"
-    }
-    let bannera = document.getElementsByTagName("section");
-    if(bannera.length>0){
-        let banner=bannera[0]
-        banner.style.display = "block"
-    }
-    document.body.scrollTop=scrollPos
-}
 
 function pageLeft(){
     document.body.scrollTop=scrollPos

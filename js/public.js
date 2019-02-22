@@ -200,7 +200,7 @@ function closeDetail(){
     document.body.scrollTop=scrollPos
 }
 
-function pageLeft(){
+function pageRight(){
     document.body.scrollTop=scrollPos
     detalIndex = detalIndex-1
     if(detalIndex <0){
@@ -209,7 +209,7 @@ function pageLeft(){
     loadDetail(detalIndex)
 }
 
-function pageRight(){
+function pageLeft(){
     document.body.scrollTop=scrollPos
     detalIndex = detalIndex+1
     if(detalIndex>detailArr.length-1){
