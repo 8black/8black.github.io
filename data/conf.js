@@ -3,7 +3,7 @@ let SETTING={
 		{
 			"title": "THE BOTTLES 1",
 			"date": "2018.06.11",
-			"description": "Lorem ipsum dolor sit amet, <a href\=\"www.baidu.com\">百度</a>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+			"description": "Lorem ipsum dolor sit amet, <a>百度</a>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
 			"imgSrc": "data/img/20190101.png",
 			"detailSrc": [
 				"data/img/3-1.png",
