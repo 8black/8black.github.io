@@ -70,7 +70,7 @@ function loadDetail(i){
     date.innerHTML=detailArr[detalIndex].date
     wrap.appendChild(date)
     let description = document.createElement("p")
-    description.innerHTML=detailArr[detalIndex].description
+    description.innerHTML=detailArr[detalIndex].description.replace('@',"=")
     wrap.appendChild(description)
     for(let i=0; i<detailArr[detalIndex].detailSrc.length; i++){
         let imagewrap = document.createElement("div")
