@@ -13,7 +13,7 @@ function updatalist(listname,ele){
     obj.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     const _ele=ele
     obj.onreadystatechange = function () {
-        if (obj.readyState == 4 && (obj.status == 200)) {
+        if (obj.readyState == 4 && (obj.status == 200)) {   `q`
             if(obj.responseText!="error"){
                 detailArr = JSON.parse(obj.responseText)
                 if(_ele){
@@ -70,8 +70,12 @@ function closeDetail(){
 function loadDetail(i){
     scrollPos = document.body.scrollTop
     document.body.scrollTop=0
+    
 
     let detail = document.getElementsByClassName("detail")[0]
+    let closebtnC = document.getElementsByClassName("closebtnC")[0]
+    detail.style.top="100%"
+    closebtnC.style.position="absolute"
 
     let wrap = document.getElementsByClassName("wrap")[0]
 
@@ -114,6 +118,8 @@ function loadDetail(i){
     // obj.open("POST", "http://localhost:8080/getLike", true);
     obj.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     const _wrap=wrap
+    const _detail=detail
+    const _closebtnC = closebtnC
     obj.onreadystatechange = function () {
         if (obj.readyState == 4 && (obj.status == 200)) {
             if(obj.responseText!="error"){
@@ -131,6 +137,11 @@ function loadDetail(i){
                     gimmeLike(_i);
                 } 
                 _wrap.appendChild(like)
+                _detail.style.top=0
+                setTimeout(() => {
+                    _closebtnC.style.position="fixed"
+                }, 600);
+                
             }
            else{
                alert("server error")
