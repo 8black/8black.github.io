@@ -261,6 +261,13 @@ body {
     margin-bottom:50px; 
     font-weight: 400;
 }
+.wrap p a{
+    color: #999999;
+}
+.wrap p a:hover{
+    color: #49ce20;
+    text-decoration-line: none;
+}
 
 .wrap div{
     width: 1040px;
