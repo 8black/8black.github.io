@@ -129,7 +129,7 @@ body {
     display: grid;
     grid-template-columns: repeat(1, 100%);
     padding-top: 0.5rem;
-    grid-gap: 1.1rem;
+    grid-gap: 1.4rem;
     margin: auto; 
 }
 .content .shhmore{
