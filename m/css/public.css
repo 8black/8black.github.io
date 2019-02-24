@@ -128,7 +128,8 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1, 100%);
-    grid-gap: 1.5rem;
+    padding-top: 0.5rem;
+    grid-gap: 1.1rem;
     margin: auto; 
 }
 .content .shhmore{
