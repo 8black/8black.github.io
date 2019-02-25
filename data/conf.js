@@ -15,7 +15,7 @@ let SETTING={
 			"title": "ANIMATION",
 			"date": "2018.11.01",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-			"imgSrc": "data/ui-img/06.jpg",
+			"imgSrc": "data/ui-img/s06.jpg",
 			"detailSrc": [
 				"data/ui-img/06-1.gif",
 				"data/ui-img/06-2.gif",
@@ -27,7 +27,7 @@ let SETTING={
 			"title": "WINWIN FINTECH",
 			"date": "2018.12.19",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-			"imgSrc": "data/ui-img/08.jpg",
+			"imgSrc": "data/ui-img/s08.jpg",
 			"detailSrc": [
 				"data/ui-img/08-1.jpg",
 				"data/ui-img/08-2.jpg",
@@ -44,7 +44,7 @@ let SETTING={
 			"title": "UNIONWIN INTERNATIONAL",
 			"date": "2018.08.11",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-			"imgSrc": "data/ui-img/04.jpg",
+			"imgSrc": "data/ui-img/s04.jpg",
 			"detailSrc": [
 				"data/ui-img/04-1.jpg",
 				"data/ui-img/04-2.gif",
@@ -107,7 +107,7 @@ let SETTING={
 			"title": "DEBUIT&CREDIT",
 			"date": "2018.02.26",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-			"imgSrc": "data/img/s01.jpg",
+			"imgSrc": "data/ui-img/s01.jpg",
 			"detailSrc": [
 				"data/ui-img/01-1.jpg",
 				"data/ui-img/01-2.jpg",
@@ -133,7 +133,7 @@ let SETTING={
 			"title": "ICONS",
 			"date": "2018.7.10",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-			"imgSrc": "data/ui-img/03.jpg",
+			"imgSrc": "data/ui-img/s03.jpg",
 			"detailSrc": [
 				"data/ui-img/03-1.jpg",
 				"data/ui-img/03-2.jpg",
@@ -145,7 +145,7 @@ let SETTING={
 			"title": "UNIONWIN INTERNATIONAL",
 			"date": "2018.08.11",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-			"imgSrc": "data/ui-img/04.jpg",
+			"imgSrc": "data/ui-img/s04.jpg",
 			"detailSrc": [
 				"data/ui-img/04-1.jpg",
 				"data/ui-img/04-2.gif",
@@ -160,7 +160,7 @@ let SETTING={
 			"title": "OPERATING ACTIVITIES",
 			"date": "2018.10.20",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-			"imgSrc": "data/ui-img/05.jpg",
+			"imgSrc": "data/ui-img/s05.jpg",
 			"detailSrc": [
 				"data/ui-img/05-1.gif",
 				"data/ui-img/05-2.jpg",
@@ -173,7 +173,7 @@ let SETTING={
 			"title": "ANIMATION",
 			"date": "2018.11.01",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-			"imgSrc": "data/ui-img/06.jpg",
+			"imgSrc": "data/ui-img/s06.jpg",
 			"detailSrc": [
 				"data/ui-img/06-1.gif",
 				"data/ui-img/06-2.gif",
@@ -185,7 +185,7 @@ let SETTING={
 			"title": "DEFAULT PAGE",
 			"date": "2018.11.20",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-			"imgSrc": "data/ui-img/07.jpg",
+			"imgSrc": "data/ui-img/s07.jpg",
 			"detailSrc": [
 				"data/ui-img/07-1.gif",
 				"data/ui-img/07-2.gif",
@@ -200,7 +200,7 @@ let SETTING={
 			"title": "WINWIN FINTECH",
 			"date": "2018.12.19",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-			"imgSrc": "data/ui-img/08.jpg",
+			"imgSrc": "data/ui-img/s08.jpg",
 			"detailSrc": [
 				"data/ui-img/08-1.jpg",
 				"data/ui-img/08-2.jpg",
@@ -221,7 +221,7 @@ let SETTING={
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
 			"imgSrc": "data/illustration-img/s01.jpg",
 			"detailSrc": [
-				"data/illustration-img/01.jpg"
+				"data/illustration-img/s01.jpg"
 			],
 			"like": 98
 		},
@@ -417,7 +417,7 @@ let SETTING={
 			"title": "THE BOTTLES 1",
 			"date": "2018.06.11",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-			"imgSrc": "data/img/20190101.jpg",
+			"imgSrc": "data/img/20190101.png",
 			"detailSrc": [
 				"data/img/3-1.jpg",
 				"data/img/3-2.jpg"
@@ -428,7 +428,7 @@ let SETTING={
 			"title": "THE BOTTLES 2",
 			"date": "2018.06.11",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-			"imgSrc": "data/img/20190102.jpg",
+			"imgSrc": "data/img/20190102.png",
 			"detailSrc": [
 				"data/img/4-1.jpg"
 			],
@@ -438,7 +438,7 @@ let SETTING={
 			"title": "THE BOTTLES 3",
 			"date": "2018.06.11",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-			"imgSrc": "data/img/20190101.jpg",
+			"imgSrc": "data/img/20190101.png",
 			"detailSrc": [
 				"data/img/3-1.jpg",
 				"data/img/3-2.jpg"
@@ -449,7 +449,7 @@ let SETTING={
 			"title": "THE BOTTLES 4",
 			"date": "2018.06.11",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-			"imgSrc": "data/img/20190102.jpg",
+			"imgSrc": "data/img/20190102.png",
 			"detailSrc": [
 				"data/img/4-1.jpg"
 			],
@@ -459,7 +459,7 @@ let SETTING={
 			"title": "THE BOTTLES 5",
 			"date": "2018.06.11",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-			"imgSrc": "data/img/20190101.jpg",
+			"imgSrc": "data/img/20190101.png",
 			"detailSrc": [
 				"data/img/3-1.jpg",
 				"data/img/3-2.jpg"
@@ -470,7 +470,7 @@ let SETTING={
 			"title": "THE BOTTLES 6",
 			"date": "2018.06.11",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-			"imgSrc": "data/img/20190102.jpg",
+			"imgSrc": "data/img/20190102.png",
 			"detailSrc": [
 				"data/img/4-1.jpg",
 				"data/img/2-1.jpg"
@@ -481,7 +481,7 @@ let SETTING={
 			"title": "THE BOTTLES 3",
 			"date": "2018.06.11",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-			"imgSrc": "data/img/20190101.jpg",
+			"imgSrc": "data/img/20190101.png",
 			"detailSrc": [
 				"data/img/3-1.jpg",
 				"data/img/3-2.jpg"
@@ -492,7 +492,7 @@ let SETTING={
 			"title": "THE BOTTLES 4",
 			"date": "2018.06.11",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-			"imgSrc": "data/img/20190102.jpg",
+			"imgSrc": "data/img/20190102.png",
 			"detailSrc": [
 				"data/img/4-1.jpg",
 				"data/img/2-1.jpg"
