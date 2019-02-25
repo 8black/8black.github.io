@@ -83,7 +83,7 @@ let SETTING={
 		{
 			"title": "EARPHONES",
 			"date": "2018.12.17",
-			"description": "科技产品是音乐的载体，这些本作用于人本身的科技产品，也可以不那么冰冷，也可以用更打动人心的方式去传达。画画的过程中，我尝试呈现更生活化，但是却又超脱于现实的感觉。“愿有音乐陪你早安、午安和晚安”",
+			"description": "科技产品是音乐的载体，这些本作用于人本身的科技产品，也可以不那么冰冷，也可以用更打动人心的方式去传达。画画的过程中，我尝试呈现更生活化，但是却又超脱于现实的感觉。</br>“愿有音乐陪你早安、午安和晚安”",
 			"imgSrc": "data/illustration-img/s14.jpg",
 			"detailSrc": [
 				"data/illustration-img/14-1.jpg",
@@ -158,7 +158,7 @@ let SETTING={
 			"like": 2
 		},
 		{
-			"title": "OPERATING ACTIVITIES",
+			"title": "H5 PAGE",
 			"date": "2018.10.20",
 			"description": "",
 			"imgSrc": "data/ui-img/s05.jpg",
