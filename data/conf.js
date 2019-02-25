@@ -414,90 +414,14 @@ let SETTING={
 	],
 	"essaylist": [
 		{
-			"title": "THE BOTTLES 1",
-			"date": "2018.06.11",
+			"title": "No. 1",
+			"date": "2019.02.25",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-			"imgSrc": "data/img/20190101.png",
+			"imgSrc": "data/essay-img/s01.jpg",
 			"detailSrc": [
-				"data/img/3-1.jpg",
-				"data/img/3-2.jpg"
+				"data/essay-img/s01.jpg"
 			],
 			"like": 0
-		},
-		{
-			"title": "THE BOTTLES 2",
-			"date": "2018.06.11",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-			"imgSrc": "data/img/20190102.png",
-			"detailSrc": [
-				"data/img/4-1.jpg"
-			],
-			"like": 1
-		},
-		{
-			"title": "THE BOTTLES 3",
-			"date": "2018.06.11",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-			"imgSrc": "data/img/20190101.png",
-			"detailSrc": [
-				"data/img/3-1.jpg",
-				"data/img/3-2.jpg"
-			],
-			"like": 7
-		},
-		{
-			"title": "THE BOTTLES 4",
-			"date": "2018.06.11",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-			"imgSrc": "data/img/20190102.png",
-			"detailSrc": [
-				"data/img/4-1.jpg"
-			],
-			"like": 2
-		},
-		{
-			"title": "THE BOTTLES 5",
-			"date": "2018.06.11",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-			"imgSrc": "data/img/20190101.png",
-			"detailSrc": [
-				"data/img/3-1.jpg",
-				"data/img/3-2.jpg"
-			],
-			"like": 4
-		},
-		{
-			"title": "THE BOTTLES 6",
-			"date": "2018.06.11",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-			"imgSrc": "data/img/20190102.png",
-			"detailSrc": [
-				"data/img/4-1.jpg",
-				"data/img/2-1.jpg"
-			],
-			"like": 0
-		},
-		{
-			"title": "THE BOTTLES 3",
-			"date": "2018.06.11",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-			"imgSrc": "data/img/20190101.png",
-			"detailSrc": [
-				"data/img/3-1.jpg",
-				"data/img/3-2.jpg"
-			],
-			"like": 7
-		},
-		{
-			"title": "THE BOTTLES 4",
-			"date": "2018.06.11",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-			"imgSrc": "data/img/20190102.png",
-			"detailSrc": [
-				"data/img/4-1.jpg",
-				"data/img/2-1.jpg"
-			],
-			"like": 2
 		}
 	]
 }
