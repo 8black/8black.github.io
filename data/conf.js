@@ -90,7 +90,7 @@ let SETTING={
 				"data/illustration-img/14-2.jpg",
 				"data/illustration-img/14-3.jpg"
 			],
-			"like": 2
+			"like": 4
 		},
 		{
 			"title": "THE YEAR OF PIG",
@@ -100,7 +100,7 @@ let SETTING={
 			"detailSrc": [
 				"data/illustration-img/17.jpg"
 			],
-			"like": 1
+			"like": 2
 		}
 	],
 	"uilist": [
@@ -195,7 +195,7 @@ let SETTING={
 				"data/ui-img/07-5.gif",
 				"data/ui-img/07-6.gif"
 			],
-			"like": 2
+			"like": 3
 		},
 		{
 			"title": "WINWIN FINTECH",
@@ -324,7 +324,7 @@ let SETTING={
 				"data/illustration-img/09-1.jpg",
 				"data/illustration-img/09-2.jpg"
 			],
-			"like": 1
+			"like": 2
 		},
 		{
 			"title": "THE DOORS",
