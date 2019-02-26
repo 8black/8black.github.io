@@ -42,9 +42,9 @@ let SETTING={
 			"like": 2
 		},
 		{
-			"title": "UNIONWIN INTERNATIONAL",
+			"title": "UNIONWIN INTL",
 			"date": "2018.08.11",
-			"description": "盈联国际致力于为国内高净值人群提供移民规划、海外置业、全球资产配置、海外保险及出国游学等高端专业咨询服务。</br><a href@http://www.linkwinning.com/index.html>点击打开盈联国际官网</a>",
+			"description": "<a href@http://www.linkwinning.com/index.html>点击打开盈联国际官网</a>",
 			"imgSrc": "data/ui-img/s04.jpg",
 			"detailSrc": [
 				"data/ui-img/04-1.jpg",
@@ -143,9 +143,9 @@ let SETTING={
 			"like": 7
 		},
 		{
-			"title": "UNIONWIN INTERNATIONAL",
+			"title": "UNIONWIN INTL",
 			"date": "2018.08.11",
-			"description": "盈联国际致力于为国内高净值人群提供移民规划、海外置业、全球资产配置、海外保险及出国游学等高端专业咨询服务。</br><a href@http://www.linkwinning.com/index.html>点击打开盈联国际官网</a>",
+			"description": "<a href@http://www.linkwinning.com/index.html>点击打开盈联国际官网</a>",
 			"imgSrc": "data/ui-img/s04.jpg",
 			"detailSrc": [
 				"data/ui-img/04-1.jpg",
@@ -223,7 +223,7 @@ let SETTING={
 			"description": "想跟另一个人产生羁绊，抑或是想独行一人，两者并没有好赖之分。</br>单身不是贵族，也不是狗，就是一种自己的选择。",
 			"imgSrc": "data/illustration-img/s01.jpg",
 			"detailSrc": [
-				"data/illustration-img/s01.jpg"
+				"data/illustration-img/01.jpg"
 			],
 			"like": 98
 		},
