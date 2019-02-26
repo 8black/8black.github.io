@@ -21,12 +21,12 @@ let SETTING={
 				"data/ui-img/06-2.gif",
 				"data/ui-img/06-3.gif"
 			],
-			"like": 2
+			"like": 1
 		},
 		{
 			"title": "WINWIN FINTECH",
 			"date": "2018.12.19",
-			"description": "盈盈金科是国内领先的互联网金融科技平台，设计过程中强调金融属性，体现其科技感，同时需具备盈盈金科本身贴近用户的亲和力。在亲和力的体现上运用了插画的方式，让界面干净清爽的同时又带有丰富的可看性。</br><a href@https://www.yingyinglicai.com/index.htm>点击打开盈盈金科官网</a>",
+			"description": "盈盈金科是国内领先的互联网金融科技平台，设计过程中强调金融属性，体现其科技感，同时需具备盈盈金科本身贴近用户的亲和力。在亲和力的体现上运用了插画的方式，让界面干净清爽的同时又带有丰富的可看性。</br><a href@https://www.yingyinglicai.com/index.htm target@_blank>点击打开盈盈金科官网</a>",
 			"imgSrc": "data/ui-img/s08.jpg",
 			"detailSrc": [
 				"data/ui-img/08-1.jpg",
@@ -39,12 +39,12 @@ let SETTING={
 				"data/ui-img/08-8.jpg",
 				"data/ui-img/08-9.jpg"
 			],
-			"like": 2
+			"like": 1
 		},
 		{
 			"title": "UNIONWIN INTL",
 			"date": "2018.08.11",
-			"description": "<a href@http://www.linkwinning.com/index.html>点击打开盈联国际官网</a>",
+			"description": "<a href@http://www.linkwinning.com/index.html target@_blank>点击打开盈联国际官网</a>",
 			"imgSrc": "data/ui-img/s04.jpg",
 			"detailSrc": [
 				"data/ui-img/04-1.jpg",
@@ -54,7 +54,7 @@ let SETTING={
 				"data/ui-img/04-5.jpg",
 				"data/ui-img/04-6.jpg"
 			],
-			"like": 2
+			"like": 1
 		},
 		{
 			"title": "SUPERWIN COMICS",
@@ -65,7 +65,7 @@ let SETTING={
 				"data/illustration-img/06-1.jpg",
 				"data/illustration-img/06-2.jpg"
 			],
-			"like": 2
+			"like": 1
 		},
 		{
 			"title": "TRAVELING",
@@ -90,7 +90,7 @@ let SETTING={
 				"data/illustration-img/14-2.jpg",
 				"data/illustration-img/14-3.jpg"
 			],
-			"like": 4
+			"like": 1
 		},
 		{
 			"title": "THE YEAR OF PIG",
@@ -100,7 +100,7 @@ let SETTING={
 			"detailSrc": [
 				"data/illustration-img/17.jpg"
 			],
-			"like": 2
+			"like": 1
 		}
 	],
 	"uilist": [
@@ -114,7 +114,7 @@ let SETTING={
 				"data/ui-img/01-2.jpg",
 				"data/ui-img/01-3.jpg"
 			],
-			"like": 5
+			"like": 1
 		},
 		{
 			"title": "ESTIMATE MASTER",
@@ -140,12 +140,12 @@ let SETTING={
 				"data/ui-img/03-2.jpg",
 				"data/ui-img/03-3.jpg"
 			],
-			"like": 7
+			"like": 1
 		},
 		{
 			"title": "UNIONWIN INTL",
 			"date": "2018.08.11",
-			"description": "<a href@http://www.linkwinning.com/index.html>点击打开盈联国际官网</a>",
+			"description": "<a href@http://www.linkwinning.com/index.html target@_blank>点击打开盈联国际官网</a>",
 			"imgSrc": "data/ui-img/s04.jpg",
 			"detailSrc": [
 				"data/ui-img/04-1.jpg",
@@ -155,7 +155,7 @@ let SETTING={
 				"data/ui-img/04-5.jpg",
 				"data/ui-img/04-6.jpg"
 			],
-			"like": 2
+			"like": 1
 		},
 		{
 			"title": "H5 PAGE",
@@ -168,7 +168,7 @@ let SETTING={
 				"data/ui-img/05-3.jpg",
 				"data/ui-img/05-4.jpg"
 			],
-			"like": 2
+			"like": 1
 		},
 		{
 			"title": "ANIMATION",
@@ -180,7 +180,7 @@ let SETTING={
 				"data/ui-img/06-2.gif",
 				"data/ui-img/06-3.gif"
 			],
-			"like": 2
+			"like": 1
 		},
 		{
 			"title": "DEFAULT PAGE",
@@ -195,12 +195,12 @@ let SETTING={
 				"data/ui-img/07-5.gif",
 				"data/ui-img/07-6.gif"
 			],
-			"like": 3
+			"like": 1
 		},
 		{
 			"title": "WINWIN FINTECH",
 			"date": "2018.12.19",
-			"description": "盈盈金科是国内领先的互联网金融科技平台，设计过程中强调金融属性，体现其科技感，同时需具备盈盈金科本身贴近用户的亲和力。在亲和力的体现上运用了插画的方式，让界面干净清爽的同时又带有丰富的可看性。</br><a href@https://www.yingyinglicai.com/index.htm>点击打开盈盈金科官网</a>",
+			"description": "盈盈金科是国内领先的互联网金融科技平台，设计过程中强调金融属性，体现其科技感，同时需具备盈盈金科本身贴近用户的亲和力。在亲和力的体现上运用了插画的方式，让界面干净清爽的同时又带有丰富的可看性。</br><a href@https://www.yingyinglicai.com/index.htm target@_blank>点击打开盈盈金科官网</a>",
 			"imgSrc": "data/ui-img/s08.jpg",
 			"detailSrc": [
 				"data/ui-img/08-1.jpg",
@@ -213,7 +213,7 @@ let SETTING={
 				"data/ui-img/08-8.jpg",
 				"data/ui-img/08-9.jpg"
 			],
-			"like": 2
+			"like": 1
 		}
 	],
 	"illustrationlist": [
@@ -225,7 +225,7 @@ let SETTING={
 			"detailSrc": [
 				"data/illustration-img/01.jpg"
 			],
-			"like": 98
+			"like": 1
 		},
 		{
 			"title": "MAJOR COLD",
@@ -247,7 +247,7 @@ let SETTING={
 				"data/illustration-img/03-1.jpg",
 				"data/illustration-img/03-2.jpg"
 			],
-			"like": 7
+			"like": 1
 		},
 		{
 			"title": "WINWIN UED",
@@ -260,7 +260,7 @@ let SETTING={
 				"data/illustration-img/04-3.jpg",
 				"data/illustration-img/04-4.jpg"
 			],
-			"like": 4
+			"like": 1
 		},
 		{
 			"title": "SUPERWIN",
@@ -276,7 +276,7 @@ let SETTING={
 				"data/illustration-img/05-6.jpg",
 				"data/illustration-img/05-7.jpg"
 			],
-			"like": 4
+			"like": 1
 		},
 		{
 			"title": "SUPERWIN COMICS",
@@ -287,7 +287,7 @@ let SETTING={
 				"data/illustration-img/06-1.jpg",
 				"data/illustration-img/06-2.jpg"
 			],
-			"like": 2
+			"like": 1
 		},
 		{
 			"title": "TRAVELING",
@@ -324,7 +324,7 @@ let SETTING={
 				"data/illustration-img/09-1.jpg",
 				"data/illustration-img/09-2.jpg"
 			],
-			"like": 2
+			"like": 1
 		},
 		{
 			"title": "THE DOORS",
@@ -355,7 +355,7 @@ let SETTING={
 			"detailSrc": [
 				"data/illustration-img/12.jpg"
 			],
-			"like": 2
+			"like": 1
 		},
 		{
 			"title": "DANCE TEACHERS",
@@ -379,7 +379,7 @@ let SETTING={
 				"data/illustration-img/14-2.jpg",
 				"data/illustration-img/14-3.jpg"
 			],
-			"like": 2
+			"like": 1
 		},
 		{
 			"title": "CHRISTMAS",
