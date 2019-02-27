@@ -26,7 +26,7 @@ let SETTING={
 		{
 			"title": "WINWIN FINTECH",
 			"date": "2018.12.19",
-			"description": "盈盈金科是国内领先的互联网金融科技平台，设计过程中强调金融属性，体现其科技感，同时需具备盈盈金科本身贴近用户的亲和力。在亲和力的体现上运用了插画的方式，让界面干净清爽的同时又带有丰富的可看性。</br><a href@https://www.yingyinglicai.com/index.htm target@_blank>点击打开盈盈金科官网</a>",
+			"description": "盈盈金科是国内领先的互联网金融科技平台，设计过程中强调金融属性，体现其科技感，同时需具备盈盈金科本身贴近用户的亲和力。在亲和力的体现上运用了插画的方式，让界面干净清爽的同时又带有丰富的可看性。</br><a href@https://www.yingyinglicai.com/index.htm>点击打开盈盈金科官网</a>",
 			"imgSrc": "data/ui-img/s08.jpg",
 			"detailSrc": [
 				"data/ui-img/08-1.jpg",
@@ -44,7 +44,7 @@ let SETTING={
 		{
 			"title": "UNIONWIN INTL",
 			"date": "2018.08.11",
-			"description": "<a href@http://www.linkwinning.com/index.html target@_blank>点击打开盈联国际官网</a>",
+			"description": "<a href@http://www.linkwinning.com/index.html>点击打开盈联国际官网</a>",
 			"imgSrc": "data/ui-img/s04.jpg",
 			"detailSrc": [
 				"data/ui-img/04-1.jpg",
@@ -145,7 +145,7 @@ let SETTING={
 		{
 			"title": "UNIONWIN INTL",
 			"date": "2018.08.11",
-			"description": "<a href@http://www.linkwinning.com/index.html target@_blank>点击打开盈联国际官网</a>",
+			"description": "<a href@http://www.linkwinning.com/index.html>点击打开盈联国际官网</a>",
 			"imgSrc": "data/ui-img/s04.jpg",
 			"detailSrc": [
 				"data/ui-img/04-1.jpg",
@@ -200,7 +200,7 @@ let SETTING={
 		{
 			"title": "WINWIN FINTECH",
 			"date": "2018.12.19",
-			"description": "盈盈金科是国内领先的互联网金融科技平台，设计过程中强调金融属性，体现其科技感，同时需具备盈盈金科本身贴近用户的亲和力。在亲和力的体现上运用了插画的方式，让界面干净清爽的同时又带有丰富的可看性。</br><a href@https://www.yingyinglicai.com/index.htm target@_blank>点击打开盈盈金科官网</a>",
+			"description": "盈盈金科是国内领先的互联网金融科技平台，设计过程中强调金融属性，体现其科技感，同时需具备盈盈金科本身贴近用户的亲和力。在亲和力的体现上运用了插画的方式，让界面干净清爽的同时又带有丰富的可看性。</br><a href@https://www.yingyinglicai.com/index.htm>点击打开盈盈金科官网</a>",
 			"imgSrc": "data/ui-img/s08.jpg",
 			"detailSrc": [
 				"data/ui-img/08-1.jpg",
