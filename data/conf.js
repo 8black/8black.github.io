@@ -355,7 +355,7 @@ let SETTING={
 			"detailSrc": [
 				"data/illustration-img/12.jpg"
 			],
-			"like": 1
+			"like": 2
 		},
 		{
 			"title": "DANCE TEACHERS",
